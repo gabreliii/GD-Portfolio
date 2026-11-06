@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elijah Gabriel — creative portfolio for design, web development, and UI/UX projects." />
+  <title>Elijah Gabriel — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="navbar" id="top">
+    <a class="brand" href="#home" aria-label="Elijah Gabriel home">
+      <span>ELI</span><i>↗</i>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy" id="about">
+        <p class="eyebrow">COMPUTER SCIENCE × CREATIVE DESIGN</p>
+        <h1>HI, I'M <span>ELIJAH.</span></h1>
+        <p class="hero-text">
+          I'm Elijah, a Computer Science student interested in both technology and creative work. I enjoy turning ideas into clean visuals and simple interfaces that are easy to understand.
+        </p>
+        <p class="hero-text">
+          My projects usually sit somewhere between design and development, from visual concepts to websites and school software projects.
+        </p>
+        <div class="mini-facts">
+          <div><strong>01</strong><span>Designer</span></div>
+          <div><strong>02</strong><span>Developer</span></div>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">VIEW MY WORK <span>↗</span></a>
+          <a class="button secondary" href="#contact">LET'S CONNECT</a>
+          <a class="button secondary" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">RESUME <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-photo-card">
+          <img src="assets/elijah.jpg" alt="Elijah Gabriel" class="hero-photo" />
+        </div>
+        <div class="sticker sticker-one">CREATE<br />MORE</div>
+        <div class="sticker sticker-two">STAY<br />CURIOUS</div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label">01 / SKILLS</div>
+      <div class="skills-header">
+        <h2>TOOLS I LIKE<br /><span>TO PLAY WITH.</span></h2>
+        <p>Simple tools, practical projects, and lots of experimenting.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-number">01</div>
+          <h3>DESIGN</h3>
+          <p>Graphic design, typography, layouts, and social visuals.</p>
+          <div class="tags"><span>Canva</span><span>Typography</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-number">02</div>
+          <h3>DEVELOPMENT</h3>
+          <p>Building beginner-friendly websites and software projects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>C++</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-number">03</div>
+          <h3>UI / UX</h3>
+          <p>Wireframes, prototypes, user flows, and simple interface systems.</p>
+          <div class="tags"><span>Wireframing</span><span>Prototyping</span><span>Figma</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-label">02 / SELECTED WORK</div>
+      <div class="work-heading">
+        <h2>A FEW THINGS<br /><span>I'VE MADE.</span></h2>
+        <p>Projects from school and web experiments.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card tall" data-project="urban">
+          <a class="project-art urban-art" href="https://urban-threads-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <span class="project-badge">WEB / DESIGN</span>
+            <span class="click-to-view">CLICK TO VIEW ↗</span>
+            <img src="assets/urban-threads.png" alt="Urban Threads" class="project-img" />
+          </a>
+          <div class="project-info">
+            <div><span>01</span><h3>URBAN THREADS</h3></div>
+            <a class="text-button" href="https://urban-threads-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">CLICK TO VIEW <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card" data-project="codeshark">
+          <a class="project-art shark-art" href="https://drive.google.com/drive/folders/1fra4YcWejXfrocQfoYDBPHqZmjQgm9KX" target="_blank" rel="noopener noreferrer">
+            <span class="project-badge">GAME / DEVELOPMENT</span>
+            <span class="click-to-view">CLICK TO VIEW ↗</span>
+            <img src="assets/codesharklogo.png" alt="CodeShark" class="project-img shark-img" />
+          </a>
+          <div class="project-info">
+            <div><span>02</span><h3>CODESHARK</h3></div>
+            <a class="text-button" href="https://drive.google.com/drive/folders/1fra4YcWejXfrocQfoYDBPHqZmjQgm9KX" target="_blank" rel="noopener noreferrer">CLICK TO VIEW <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card" data-project="warehouse">
+          <a class="project-art warehouse-art" href="https://gabreliii.github.io/HCI-proj-draft/" target="_blank" rel="noopener noreferrer">
+            <span class="project-badge">SYSTEM / UI</span>
+            <span class="click-to-view">CLICK TO VIEW ↗</span>
+            <img src="assets/warehouse-management.png" alt="Warehouse Management System" class="project-img warehouse-img" />
+          </a>
+          <div class="project-info">
+            <div><span>03</span><h3>WAREHOUSE MANAGEMENT SYSTEM</h3></div>
+            <a class="text-button" href="https://gabreliii.github.io/HCI-proj-draft/" target="_blank" rel="noopener noreferrer">CLICK TO VIEW <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="work-widgets">
+        <a class="work-widget" href="https://drive.google.com/drive/folders/1iGEXep89Cq9-Vx2Dye7kJzmQjGHEVlxG" target="_blank" rel="noopener noreferrer">
+          <span class="widget-num">01</span>
+          <div class="widget-body">
+            <h4>Brand Design</h4>
+            <span class="widget-arrow">↗</span>
+          </div>
+        </a>
+        <a class="work-widget" href="https://drive.google.com/drive/folders/1_xYEw7Zik4SAWAaXgoP7VVvs9Md9HEu-" target="_blank" rel="noopener noreferrer">
+          <span class="widget-num">02</span>
+          <div class="widget-body">
+            <h4>Midterm Project</h4>
+            <span class="widget-arrow">↗</span>
+          </div>
+        </a>
+        <a class="work-widget" href="https://drive.google.com/drive/folders/1J2hR6PAy85mKDYZSIaZ4uv42-glOArpT" target="_blank" rel="noopener noreferrer">
+          <span class="widget-num">03</span>
+          <div class="widget-body">
+            <h4>Print Media</h4>
+            <span class="widget-arrow">↗</span>
+          </div>
+        </a>
+        <a class="work-widget" href="assets/promo-video.mp4" target="_blank" rel="noopener noreferrer">
+          <span class="widget-num">04</span>
+          <div class="widget-body">
+            <h4>Promotional Video</h4>
+            <span class="widget-arrow">↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-orb"></div>
+      <div class="section-label">03 / CONTACT</div>
+      <div class="contact-content">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>LET'S MAKE<br /><span>SOMETHING COOL.</span></h2>
+        <a class="contact-email" href="mailto:gaberielelijah@gmail.com">gaberielelijah@gmail.com <span>↗</span></a>
+        <div class="socials">
+          <a href="https://github.com/gabreliii" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            GITHUB
+          </a>
+          <a href="https://www.linkedin.com/in/elijah-gabriel-jacobo-446892449/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LINKEDIN
+          </a>
+          <a href="https://www.facebook.com/elijahgabr/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            FACEBOOK
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> ELIJAH GABRIEL</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+      <button class="modal-close" type="button" aria-label="Close">×</button>
+      <span class="modal-kicker">PROJECT</span>
+      <h2 id="modal-title">PROJECT TITLE</h2>
+      <p id="modal-description"></p>
+      <div class="modal-meta">
+        <span id="modal-type"></span>
+        <span>ELIJAH GABRIEL</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
